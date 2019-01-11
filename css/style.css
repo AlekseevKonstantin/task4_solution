@@ -1,21 +1,21 @@
 /* custom classes */
 
-body {
+.kurierchikof-rs-support-tariffs body {
   background-color: #f4f8f7;
 }
 
-a,
-a:hover {
+.kurierchikof-rs-support-tariffs a,
+.kurierchikof-rs-support-tariffs a:hover {
   text-decoration: none;
 }
 
-.custom-font {
+.kurierchikof-rs-support-tariffs .custom-font {
   font-family: 'Open Sans', sans-serif !important;
 }
 
 /* .kurierchikof-rs-support-tariffs */
 
-.kurierchikof-rs-support-tariffs-tariffs .custom-head {
+.kurierchikof-rs-support-tariffs .custom-head {
   font-size: 35px;
   color: rgb(66, 66, 66);
   text-transform: uppercase;
@@ -706,7 +706,7 @@ a:hover {
 }
 
 @media (max-width: 468px) {
-  .kurierchikof-rs-support-tariffs-tariffs .custom-form-head {
+  .kurierchikof-rs-support-tariffs .custom-form-head {
     font-size: 25px;
     line-height: 1.2;
   }
