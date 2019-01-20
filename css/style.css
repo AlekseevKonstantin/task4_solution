@@ -501,7 +501,7 @@
   border: none !important;
   padding-left: 15px;
   padding-right: 15px;
-  left: -39px;
+  left: -39px !important;
   min-width: 222px; 
 }
 
@@ -511,7 +511,12 @@
   top: 0;
   left: 0;
   width: 100%;
-  height: 7px;box-shadow: 0px 7.6px 7.6px -3.9px rgba(0, 0, 0, 0.09) inset;
+  height: 7px;
+  box-shadow: 0px 7.6px 7.6px -3.9px rgba(0, 0, 0, 0.09) inset;
+}
+
+.kurierchikof-rs-top-menu .fa-ul{
+  margin-left: 2.5em !important;
 }
 
 .kurierchikof-rs-top-menu .custom-dropdown .fa-li{
@@ -759,7 +764,8 @@
     position: absolute;
     top: 100%;
     left: 0;
-    width: 100%;
+    width: calc(100% - 30px);
+    margin-left: 15px;
     height: 7px;
     box-shadow: 0px 7.6px 7.6px -3.9px rgba(0, 0, 0, 0.09) inset;
   }
